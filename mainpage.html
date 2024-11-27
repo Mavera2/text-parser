@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metin Karşılaştırma</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Metin Karşılaştırma</h1>
+    
+    <label for="main-text">Ana Metin:</label>
+    <textarea id="main-text" rows="10" placeholder="Ana metninizi buraya girin..."></textarea>
+    
+    <label for="sub-text">Yan Metin:</label>
+    <textarea id="sub-text" rows="10" placeholder="Yan metni buraya girin..."></textarea>
+    
+    <button onclick="compareTexts()">Aynı Cümleleri Çıkar</button>
+
+    <h2>Sonuç:</h2>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
